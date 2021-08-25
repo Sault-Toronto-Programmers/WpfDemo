@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfDemo.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <TextBox HorizontalAlignment="Left" Height="33" Margin="227,123,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="165" RenderTransformOrigin="0.605,2.26" FontSize="18" x:Name="answer"/>
+        <TextBlock HorizontalAlignment="Left" Margin="227,56,0,0" TextWrapping="Wrap" Text="Enter the correct answer : 2+1 " VerticalAlignment="Top" FontSize="36" />
+        <Button Content="Open Window 2" HorizontalAlignment="Left" Margin="227,334,0,0" VerticalAlignment="Top" Width="225" Click="Button_Click" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="227,172,0,0" TextWrapping="Wrap" Text="Enter your name" VerticalAlignment="Top" FontSize="36" />
+        <TextBox HorizontalAlignment="Left" Height="33" Margin="227,245,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="165" RenderTransformOrigin="0.605,2.26" FontSize="18" x:Name="username"/>
+
+    </Grid>
+</Window>
